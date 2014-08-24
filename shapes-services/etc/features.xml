@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features name="shapes-services-1.0.0">
+	  <feature name="shapes" version="1.0.0" resolver="(obr)">
+	  	<bundle dependency="true">mvn:ua.ishchenko/shapes-common/1.0.0</bundle>
+	  	<configfile finalname="/etc/shapes.backend.cfg">mvn:ua.ishchenko/shapes-services/1.0.0/cfg/shapes.backend</configfile>
+	  	<bundle dependency="true">mvn:ua.ishchenko/shapes-services/1.0.0</bundle>
+	  </feature>
+</features>
